@@ -1,0 +1,3 @@
+- Keep the Carpe Diem experience as a single editorial page with section navigation because the approved brief specifies one continuous conversion journey.
+- Keep business details, menu content, and WhatsApp URL construction centralized in `src/data/carpe.ts` to prevent inconsistencies.
+- Site photos are official venue photos stored as CDN asset pointers in src/assets (carpe-N.jpg.asset.json).
