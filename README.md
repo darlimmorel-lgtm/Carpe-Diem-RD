@@ -7,6 +7,7 @@ Tu misión es DISEÑAR Y CONSTRUIR una página web completa, premium, visualment
 No construyas una plantilla genérica de restaurante. Crea una experiencia digital con identidad propia, dirección de arte coherente, fotografías gastronómicas de alto nivel, animaciones cinematográficas elegantes y una experiencia de usuario diseñada para conseguir reservas, consultas de eventos y visitas al restaurante.
 
 IMPORTANTE:
+
 - Construye la web real dentro del proyecto, no te limites a describirla.
 - Antes de modificar el proyecto, inspecciona su estructura, componentes y dependencias existentes.
 - Si el proyecto ya contiene una implementación, reutiliza lo que sea útil y evita romper funcionalidades existentes.
@@ -16,8 +17,9 @@ IMPORTANTE:
 - Toda la experiencia debe estar en español, con precios en pesos dominicanos (RD$).
 
 ==================================================
+
 1. INFORMACIÓN OFICIAL DEL NEGOCIO
-==================================================
+   \==================================================
 
 Nombre comercial: Carpe Diem RD.
 
@@ -59,8 +61,7 @@ Un lugar donde se combinan gastronomía, encuentros, celebración, terraza, coct
 
 No inventar una historia fundacional, nombres de propietarios, chefs, premios ni certificaciones.
 
-==================================================
-2. OBJETIVOS PRINCIPALES
+================================================== 2. OBJETIVOS PRINCIPALES
 ==================================================
 
 Diseñar una web orientada a cinco objetivos:
@@ -74,14 +75,14 @@ Diseñar una web orientada a cinco objetivos:
 El usuario debe poder comprender en pocos segundos qué ofrece Carpe Diem RD, dónde está y cómo reservar.
 
 Prioridad de conversión:
+
 - CTA principal: “Reservar mi mesa”.
 - CTA secundario: “Explorar el menú”.
 - CTA terciario: “Organizar un evento”.
 
 No obligar al usuario a registrarse para consultar el menú o contactar con el negocio.
 
-==================================================
-3. DIRECCIÓN DE ARTE E IDENTIDAD VISUAL
+================================================== 3. DIRECCIÓN DE ARTE E IDENTIDAD VISUAL
 ==================================================
 
 Diseña una identidad digital de restaurante lounge premium, con inspiración tropical contemporánea y estética editorial de hospitality internacional.
@@ -102,6 +103,7 @@ PALETA DE COLORES:
 Usa fondos oscuros como base, marfil para textos principales y dorado exclusivamente para elementos de énfasis, separadores, iconos y botones seleccionados.
 
 Evita:
+
 - Gradientes multicolor genéricos.
 - Exceso de sombras y bordes.
 - Tarjetas con apariencia de dashboard.
@@ -114,6 +116,7 @@ Evita:
 TIPOGRAFÍA:
 
 Combina:
+
 - Una tipografía serif editorial de carácter elegante para títulos, como Cormorant Garamond o Playfair Display.
 - Una sans serif moderna y legible para párrafos, controles y navegación, como Manrope o Inter.
 
@@ -124,6 +127,7 @@ Los titulares deben tener personalidad editorial, con interlineado ajustado y es
 ESTILO FOTOGRÁFICO:
 
 Utiliza fotografía de alta calidad:
+
 - Terrazas con iluminación cálida al anochecer.
 - Mesas elegantemente preparadas.
 - Platos dominicanos e internacionales con presentación cuidada.
@@ -139,13 +143,13 @@ No utilizar imágenes de hoteles, restaurantes con marcas visibles de terceros o
 
 No presentar fotografías de referencia como si fueran necesariamente fotografías auténticas del establecimiento. Priorizar material oficial del negocio cuando esté disponible y autorizado.
 
-==================================================
-4. STACK Y ARQUITECTURA
+================================================== 4. STACK Y ARQUITECTURA
 ==================================================
 
 Utiliza las tecnologías existentes en el proyecto y respeta las convenciones ya establecidas.
 
 Si se inicia desde cero, utiliza:
+
 - React.
 - TypeScript.
 - Tailwind CSS.
@@ -157,6 +161,7 @@ Si se inicia desde cero, utiliza:
 Usa componentes pequeños y mantenibles.
 
 Organiza el código en componentes como:
+
 - Header.
 - HeroSection.
 - MarqueeStrip.
@@ -177,13 +182,13 @@ No instales librerías innecesarias si las funcionalidades pueden resolverse con
 
 Evita duplicar contenido entre componentes y centraliza los datos del menú, los horarios y la información de contacto cuando sea conveniente.
 
-==================================================
-5. HEADER Y NAVEGACIÓN
+================================================== 5. HEADER Y NAVEGACIÓN
 ==================================================
 
 Crea un header elegante, inicialmente transparente sobre el hero.
 
 Elementos:
+
 - Logotipo tipográfico CARPE DIEM.
 - Submarca pequeña RD.
 - Inicio.
@@ -197,6 +202,7 @@ Elementos:
 COMPORTAMIENTO:
 
 Al hacer scroll:
+
 - El header cambia suavemente a un fondo oscuro con ligera opacidad.
 - Añade un efecto de desenfoque sutil.
 - Reduce ligeramente su altura.
@@ -207,6 +213,7 @@ El enlace de la sección activa puede recibir un indicador dorado discreto.
 En escritorio, navegación horizontal.
 
 En móvil:
+
 - Menú hamburguesa.
 - Panel de navegación accesible.
 - Cierre al seleccionar una sección.
@@ -216,8 +223,7 @@ En móvil:
 
 El header debe funcionar con navegación por teclado y mostrar indicadores de foco.
 
-==================================================
-6. HERO CINEMATOGRÁFICO
+================================================== 6. HERO CINEMATOGRÁFICO
 ==================================================
 
 El hero es la sección más importante de la página.
@@ -228,6 +234,7 @@ Fondo:
 Una fotografía o vídeo autorizado de la terraza o de un ambiente lounge nocturno, con encuadre editorial y espacio suficiente para el texto.
 
 Si existe vídeo:
+
 - Reproducción automática en silencio.
 - Bucle continuo.
 - Sin controles visibles por defecto.
@@ -252,6 +259,7 @@ Texto complementario opcional:
 “Tu mesa, tu ambiente, tu manera de disfrutar.”
 
 Botones:
+
 - “Reservar mi mesa”.
 - “Descubrir el menú”.
 
@@ -276,8 +284,7 @@ ANIMACIÓN:
 
 No animar todos los elementos simultáneamente. Mantener el rendimiento y una estética sofisticada.
 
-==================================================
-7. BANDA EDITORIAL DE MARCA
+================================================== 7. BANDA EDITORIAL DE MARCA
 ==================================================
 
 Después del hero, añade una banda horizontal fina con frases separadas por pequeños símbolos geométricos:
@@ -294,13 +301,13 @@ La animación debe ser continua, discreta y sin saltos. Pausar o reducir el movi
 
 No debe competir con el contenido principal.
 
-==================================================
-8. SECCIÓN INTRODUCTORIA: LA EXPERIENCIA
+================================================== 8. SECCIÓN INTRODUCTORIA: LA EXPERIENCIA
 ==================================================
 
 Diseña una sección editorial con una composición de dos columnas.
 
 Columna izquierda:
+
 - Etiqueta: “LA EXPERIENCIA”.
 - Título: “Hay lugares que convierten cada encuentro en un momento especial.”
 - Texto sobre la combinación de gastronomía dominicana e internacional, terraza, ambiente social y experiencias nocturnas.
@@ -327,8 +334,7 @@ Añade un CTA discreto:
 ANIMACIÓN:
 Entrada progresiva al entrar en viewport, con desplazamiento vertical corto y opacidad.
 
-==================================================
-9. PLATOS DESTACADOS
+================================================== 9. PLATOS DESTACADOS
 ==================================================
 
 Título de sección:
@@ -349,6 +355,7 @@ Productos sugeridos para destacar según la información del menú:
 6. Camarones en salsa de coco sobre mofongo.
 
 Cada producto debe incluir:
+
 - Fotografía.
 - Nombre.
 - Descripción breve, redactada con claridad.
@@ -360,14 +367,14 @@ No inventes precios para estos platos si no se dispone de precios verificados.
 Las imágenes deben tener proporciones coherentes y recortes consistentes.
 
 Al pasar el cursor sobre una imagen de escritorio:
+
 - Zoom muy ligero.
 - Aparición sutil del nombre o indicador.
 - Sin grandes desplazamientos ni transformaciones exageradas.
 
 En móvil, el contenido debe ser navegable sin depender de hover.
 
-==================================================
-10. SECCIÓN DE AMBIENTES
+================================================== 10. SECCIÓN DE AMBIENTES
 ==================================================
 
 Título:
@@ -391,8 +398,7 @@ Incluye una nota informativa discreta:
 
 No prometas música en vivo en una fecha específica sin confirmación.
 
-==================================================
-11. MENÚ DIGITAL INTERACTIVO
+================================================== 11. MENÚ DIGITAL INTERACTIVO
 ==================================================
 
 Construye una sección de menú funcional, elegante y fácil de explorar.
@@ -404,6 +410,7 @@ Subtítulo:
 “De los sabores dominicanos a las propuestas internacionales, encuentra algo para cada ocasión.”
 
 Categorías mediante pestañas o filtros:
+
 - Entremeses.
 - Ensaladas.
 - Sushi y uramaki.
@@ -421,6 +428,7 @@ Incluye búsqueda por nombre de plato cuando sea viable.
 DATOS DE PRODUCTOS:
 
 ENTREMESES:
+
 - Croquetas de prosciutto y manchego con spicy mayo.
 - Canastitas de plátano rellenas de chivo montecristeño.
 - Canastitas de plátano con lambí a la criolla.
@@ -432,6 +440,7 @@ ENTREMESES:
 - Masa de cangrejo gratinada con queso Emmental.
 
 SUSHI Y URAMAKI:
+
 - Uramaki de mango, queso y salmón sellado con teriyaki.
 - Uramaki de gambas, aguacate y kanikama.
 - Uramaki de pepino, aguacate y mango.
@@ -440,6 +449,7 @@ SUSHI Y URAMAKI:
 - Uramaki de salmón, aguacate, queso crema y bacon.
 
 PASTAS:
+
 - Linguini de frutos del mar a la crema.
 - Espagueti con churrasco, camarones y plátano maduro en salsa de cuatro quesos.
 - Fettuccine con almejas blancas en aglio e olio.
@@ -448,6 +458,7 @@ PASTAS:
 - Linguini parmesano con pimienta fresca y crema.
 
 CARNES:
+
 - Medallones de res envueltos en bacon con salsa de champiñones.
 - Chivo liniero con hierbas aromatizadas.
 - Baby Back Ribs en salsa barbacoa de la casa.
@@ -456,6 +467,7 @@ CARNES:
 - Lonjas de pollo rellenas de mofongo en salsa blanca.
 
 MARISCOS:
+
 - Dorada empanizada rellena de risotto y frutos del mar.
 - Tentáculos de pulpo sobre papas en aceite verde y páprika.
 - Tilapia rellena de masa de cangrejo y vegetales en salsa roja.
@@ -463,16 +475,19 @@ MARISCOS:
 - Parrillada de camarones, calamares, mejillones, langostinos, almejas y pescado.
 
 HAMBURGUESAS Y SÁNDWICHES:
+
 - Burger Angus de 8 oz con queso Munster, cebolla caramelizada y bacon.
 - Burger Angus con huesos de costilla y salsa blue cheese.
 - Baguette de Angus, cebolla caramelizada, portobello y cheddar.
 - Sándwich de pork belly, coleslaw y salsa BBQ.
 
 POSTRES:
+
 - Dulce de coco rostizado con helado.
 
 BARRA:
 Organiza las bebidas por categorías:
+
 - Whisky.
 - Tequila.
 - Ron.
@@ -484,26 +499,31 @@ Organiza las bebidas por categorías:
 PRECIOS DE REFERENCIA DE LA BARRA:
 
 Whisky:
+
 - Buchanan's 12: botella RD$3,500; trago RD$375.
 - Chivas 12: botella RD$3,200; trago RD$350.
 - Johnnie Walker Black: botella RD$3,150; trago RD$350.
 - Johnnie Walker Blue: botella RD$25,800; trago RD$2,000.
 
 Tequila:
+
 - Altos Añejo: botella RD$3,750; trago RD$400.
 - Don Julio Añejo: botella RD$5,900; trago RD$650.
 - Don Julio 1942: botella RD$15,250.
 
 Ron:
+
 - Brugal Doble Reserva: botella RD$1,550; trago RD$250.
 - Zacapa 23: botella RD$5,800; trago RD$600.
 - Zacapa XO: botella RD$11,550; trago RD$1,400.
 
 Vodka:
+
 - Grey Goose: botella RD$4,500; trago RD$500.
 - Ciroc: botella RD$3,500. No inventar precio por trago.
 
 Champagne:
+
 - Moët Ice: botella RD$8,400.
 - Moët Rosé: botella RD$9,800.
 - Dom Pérignon: botella RD$24,300.
@@ -517,6 +537,7 @@ No inventar precios para productos que no los tengan indicados.
 No inventar disponibilidad de platos ni ingredientes adicionales.
 
 Permite:
+
 - Cambiar de categoría.
 - Abrir detalles de un plato.
 - Ver imágenes cuando estén disponibles.
@@ -531,8 +552,7 @@ https://www.menudigital.com.do/new-carpe-diem/
 
 El menú debe ser accesible y cómodo en pantallas pequeñas.
 
-==================================================
-12. EXPERIENCIA DE RESERVA POR WHATSAPP
+================================================== 12. EXPERIENCIA DE RESERVA POR WHATSAPP
 ==================================================
 
 Implementa un flujo de reserva funcional.
@@ -550,6 +570,7 @@ Crea un botón “Reservar mi mesa” que abra un modal o panel con estos campos
 - Comentarios, opcional.
 
 VALIDACIONES:
+
 - Nombre obligatorio.
 - Teléfono obligatorio.
 - Fecha obligatoria.
@@ -560,6 +581,7 @@ VALIDACIONES:
 - Errores accesibles.
 
 Al enviar:
+
 1. Valida los campos.
 2. Construye un resumen de la solicitud.
 3. Codifica correctamente el texto para una URL.
@@ -592,8 +614,7 @@ Si posteriormente se configura una integración real de reservas, documenta los 
 
 En móvil, el modal debe adaptarse al viewport, permitir scroll interno y tener un botón de cierre accesible.
 
-==================================================
-13. EVENTOS Y CELEBRACIONES
+================================================== 13. EVENTOS Y CELEBRACIONES
 ==================================================
 
 Diseña una sección dedicada a celebraciones y eventos privados.
@@ -605,6 +626,7 @@ Texto:
 “Celebra tus ocasiones en Carpe Diem RD. Consulta las opciones disponibles para compartir con amigos, familiares o compañeros de trabajo.”
 
 Tipos de eventos:
+
 - Cumpleaños.
 - Celebraciones familiares.
 - Reuniones de amigos.
@@ -620,6 +642,7 @@ CTA:
 “Consultar mi evento”.
 
 Al pulsarlo, abrir un formulario con:
+
 - Nombre.
 - Teléfono.
 - Tipo de evento.
@@ -629,20 +652,21 @@ Al pulsarlo, abrir un formulario con:
 
 Al enviar, generar una consulta estructurada para WhatsApp, claramente identificada como solicitud de información.
 
-==================================================
-14. GALERÍA VISUAL
+================================================== 14. GALERÍA VISUAL
 ==================================================
 
 Título:
 “Carpe Diem en imágenes”.
 
 Crea una galería editorial con cuatro filtros:
+
 - Ambiente.
 - Gastronomía.
 - Cócteles.
 - Celebraciones.
 
 Diseño:
+
 - Grid asimétrico.
 - Imágenes de diferentes proporciones.
 - Espaciado consistente.
@@ -664,8 +688,7 @@ CTA:
 
 No simules un feed en vivo si no existe una integración con la API de Instagram.
 
-==================================================
-15. UBICACIÓN Y CONTACTO
+================================================== 15. UBICACIÓN Y CONTACTO
 ==================================================
 
 Título:
@@ -721,13 +744,13 @@ Como no se dispone de un correo oficial verificado ni de un backend de recepció
 
 Implementa una alternativa funcional mediante WhatsApp, o deja documentada la integración de backend necesaria.
 
-==================================================
-16. FOOTER PREMIUM
+================================================== 16. FOOTER PREMIUM
 ==================================================
 
 El footer debe cerrar la experiencia con elegancia.
 
 Incluye:
+
 - Marca CARPE DIEM RD.
 - Frase “Vive el momento con estilo”.
 - Enlaces de navegación.
@@ -740,18 +763,19 @@ Incluye:
 - Año actual generado dinámicamente.
 
 Añade enlaces a:
+
 - Política de privacidad.
 - Política de cookies, cuando sea aplicable.
 
 No redactes declaraciones falsas sobre tratamientos de datos o cookies que no se hayan implementado.
 
-==================================================
-17. BOTÓN FLOTANTE DE WHATSAPP
+================================================== 17. BOTÓN FLOTANTE DE WHATSAPP
 ==================================================
 
 Implementa un botón flotante discreto de WhatsApp.
 
 Características:
+
 - Posición fija en la parte inferior derecha.
 - Icono reconocible.
 - Etiqueta accesible.
@@ -762,8 +786,7 @@ Características:
 
 Debe respetar el área segura de los dispositivos móviles y no tapar los botones de formularios.
 
-==================================================
-18. ANIMACIONES Y MICROINTERACCIONES
+================================================== 18. ANIMACIONES Y MICROINTERACCIONES
 ==================================================
 
 El lenguaje de movimiento debe ser cinematográfico, sutil y coherente.
@@ -809,8 +832,7 @@ REGLAS:
 
 El resultado debe sentirse premium, no como una demostración de efectos.
 
-==================================================
-19. RESPONSIVE DESIGN
+================================================== 19. RESPONSIVE DESIGN
 ==================================================
 
 Diseña y comprueba los siguientes rangos:
@@ -822,6 +844,7 @@ Portátil: 1280–1440 px.
 Escritorio amplio: 1600 px o más.
 
 MÓVIL:
+
 - Hero visualmente impactante sin ocupar demasiadas pantallas.
 - Titulares ajustados al ancho disponible.
 - CTA principal visible.
@@ -834,6 +857,7 @@ MÓVIL:
 - Modales utilizables con teclado y táctil.
 
 ESCRITORIO:
+
 - Uso generoso del espacio negativo.
 - Composiciones editoriales asimétricas.
 - Contenido con anchura máxima razonable.
@@ -843,8 +867,7 @@ ESCRITORIO:
 
 El diseño debe adaptarse realmente al contenido, no limitarse a reducir el tamaño de los elementos.
 
-==================================================
-20. SEO LOCAL
+================================================== 20. SEO LOCAL
 ==================================================
 
 Optimiza la web para búsquedas relacionadas con:
@@ -868,6 +891,7 @@ Meta descripción:
 “Descubre Carpe Diem RD en la Av. España #56, Santo Domingo Este. Gastronomía dominicana e internacional, terraza, coctelería, eventos y reservas por WhatsApp.”
 
 Implementa:
+
 - Un solo H1 descriptivo.
 - Jerarquía coherente de encabezados.
 - Meta title y description.
@@ -887,8 +911,7 @@ No añadas datos estructurados de reseñas que no se puedan verificar.
 
 Usa español como idioma principal.
 
-==================================================
-21. RENDIMIENTO Y ACCESIBILIDAD
+================================================== 21. RENDIMIENTO Y ACCESIBILIDAD
 ==================================================
 
 OBJETIVOS:
@@ -914,8 +937,7 @@ Usa componentes semánticos: header, nav, main, section y footer.
 
 No añadas dependencias pesadas solo por decoración.
 
-==================================================
-22. PRIVACIDAD Y SEGURIDAD
+================================================== 22. PRIVACIDAD Y SEGURIDAD
 ==================================================
 
 - No solicitar información innecesaria.
@@ -927,8 +949,7 @@ No añadas dependencias pesadas solo por decoración.
 - No inventar una política de privacidad supuestamente aprobada por la empresa.
 - Mantener los enlaces externos seguros cuando se abran en una nueva pestaña.
 
-==================================================
-23. ESTRUCTURA FINAL DE LA PÁGINA
+================================================== 23. ESTRUCTURA FINAL DE LA PÁGINA
 ==================================================
 
 Implementa el siguiente orden:
@@ -951,8 +972,7 @@ Las secciones deben mantener continuidad visual, pero diferenciarse mediante com
 
 Evita que toda la página sea una sucesión idéntica de tarjetas.
 
-==================================================
-24. CRITERIOS DE ACEPTACIÓN
+================================================== 24. CRITERIOS DE ACEPTACIÓN
 ==================================================
 
 Antes de dar el proyecto por terminado, verifica:
@@ -983,8 +1003,7 @@ Antes de dar el proyecto por terminado, verifica:
 24. Los botones tienen acciones funcionales.
 25. La carga inicial prioriza el contenido principal.
 
-==================================================
-25. INSTRUCCIÓN FINAL
+================================================== 25. INSTRUCCIÓN FINAL
 ==================================================
 
 Construye ahora la página completa de Carpe Diem RD.
@@ -1009,8 +1028,9 @@ cd <repository-name>
 npm i
 npm run dev
 ```
-"# Carpe-Diem-RD" 
-"# Carpe-Diem-RD" 
-"# Carpe-Diem-RD" 
-"# Carpe-Diem-RD" 
-"# carpediem-experience" 
+
+"# Carpe-Diem-RD"
+"# Carpe-Diem-RD"
+"# Carpe-Diem-RD"
+"# Carpe-Diem-RD"
+"# carpediem-experience"
