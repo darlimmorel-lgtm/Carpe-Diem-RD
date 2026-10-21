@@ -18,10 +18,13 @@ const buttonVariants = cva(
         link: "text-primary underline-offset-4 hover:underline",
         gold: "border border-primary bg-primary text-primary-foreground hover:bg-primary/85",
         dark: "border border-foreground bg-foreground text-background hover:bg-foreground/85",
-        ivoryOutline: "border border-foreground/35 bg-transparent text-foreground hover:border-primary hover:text-primary",
-        textLink: "h-auto rounded-none border-b border-primary/50 bg-transparent px-0 py-1 text-foreground hover:border-primary hover:text-primary",
+        ivoryOutline:
+          "border border-foreground/35 bg-transparent text-foreground hover:border-primary hover:text-primary",
+        textLink:
+          "h-auto rounded-none border-b border-primary/50 bg-transparent px-0 py-1 text-foreground hover:border-primary hover:text-primary",
         iconGhost: "bg-transparent text-foreground hover:bg-foreground/10",
-        iconOutline: "border border-border bg-transparent text-foreground hover:border-primary hover:text-primary",
+        iconOutline:
+          "border border-border bg-transparent text-foreground hover:border-primary hover:text-primary",
       },
       size: {
         default: "h-9 px-4 py-2",
